@@ -8,7 +8,7 @@
     <label v-text="item.text"></label>
 
     <button class="delete" @click="deleteTodo({ id: item.id })">
-      <span class="glyphicon glyphicon-trash"></span>
+      <font-awesome-icon icon="trash-alt"></font-awesome-icon>      
     </button>
   </li>
 </template>
